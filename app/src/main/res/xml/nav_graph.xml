@@ -1,0 +1,29 @@
+<!-- nav_graph.xml -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.example.yourapp.SplashScreen"
+        android:label="Splash Screen">
+        <action
+            android:id="@+id/action_splashScreen_to_webViewScreen"
+            app:destination="@id/webViewScreen"
+            app:popUpTo="@id/splashScreen" />
+        <action
+            android:id="@+id/action_splashScreen_to_testScreen"
+            app:destination="@id/testScreen"
+            app:popUpTo="@id/splashScreen" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/webViewScreen"
+        android:name="com.example.yourapp.WebViewScreen"
+        android:label="WebView Screen" />
+
+    <fragment
+        android:id="@+id/testScreen"
+        android:name="com.example.yourapp.TestScreen"
+        android:label="Test Screen" />
+
+</navigation>

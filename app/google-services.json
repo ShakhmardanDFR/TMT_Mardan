@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "853255953951",
+    "project_id": "myapp-cdd90",
+    "storage_bucket": "myapp-cdd90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853255953951:android:7ffa00e90f1260a06a3f2a",
+        "android_client_info": {
+          "package_name": "com.example.myapplication_mardan_tmt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853255953951-v1eq8fmjk4u37u97duvnqa35sfgr6j12.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication_mardan_tmt",
+            "certificate_hash": "4caea82ef82c91169fac8629d562eb8def536ba0"
+          }
+        },
+        {
+          "client_id": "853255953951-hdb2ps5tcvnrlr3jldlee25kror64jbd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZyEyuYJLh2ZZxCKNKlgRGEfLhZ8JFZPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853255953951-hdb2ps5tcvnrlr3jldlee25kror64jbd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
